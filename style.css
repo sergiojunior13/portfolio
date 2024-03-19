@@ -78,6 +78,7 @@ header {
   top: 0;
   align-items: center;
   padding: 24px 16px;
+  z-index: 10;
 
   & h1 {
     font-size: 1.7rem;
@@ -98,7 +99,7 @@ main {
   background-image: conic-gradient(
     from -30deg at 0% 100%,
     var(--bg),
-    var(--primary)
+    var(--primary-dark)
   );
 
   & div {
